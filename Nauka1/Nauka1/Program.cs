@@ -1,19 +1,19 @@
 ﻿// Deklaracje zmiennych
-    string Name = "Ewa";
-    int Wiek = 33;
-    bool Kobieta = true;
+    string name = "Ewa";
+    int age = 33;
+    bool female = true;
 
 //Kod Programu
 
-    if (Kobieta == true && Wiek < 30)
+    if (female == true && age < 30)
     {
     Console.WriteLine("Kobieta poniżej 30 lat");
     }
-    else if ( Kobieta == true && Wiek == 33 )
+    else if ( female == true && age == 33 )
     {
-    Console.WriteLine(Name + ", lat " + Wiek);
+    Console.WriteLine(name + ", lat " + age);
     }
-    else if ( Kobieta == false && Wiek < 18)
+    else if ( female == false && age < 18)
     {
     Console.WriteLine("Niepełnoletni Mężczyzna");
     }

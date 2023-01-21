@@ -1,9 +1,9 @@
-﻿// Deklaracje zmiennych
+﻿// Deklaracje zmiennych zgodnie z zaleceniem zmianiam nazwy na angielskie
     string name = "Ewa";
     int age = 33;
     bool female = true;
 
-//Kod Programu
+//Kod Programu 
 
     if (female == true && age < 30)
     {

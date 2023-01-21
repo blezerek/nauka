@@ -3,6 +3,8 @@
     int Wiek = 33;
     bool Kobieta = true;
 
+//Kod Programu
+
     if (Kobieta == true && Wiek < 30)
     {
     Console.WriteLine("Kobieta poniżej 30 lat");
